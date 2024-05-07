@@ -1,0 +1,21 @@
+diet = input("Do you have any dietary restrictions? (vegetarian, gluten free, none): ")
+print(diet)
+if diet == "vegetarian":
+    print("Meal plan: Salad, rice or beans, and/or yogurt")
+elif diet == "gluten free":
+    print("Salad, broccoli soup, eggs")
+elif diet == "none":
+    print("Salad, burgers, and mac & cheese.")
+
+plan = input("Do you have a pre-paid mealplan? (yes, no): ")
+print(plan)
+if plan == "No":
+    print("Enter payment information")
+if plan == "Yes":
+    print("Continue.")
+
+eatOutside = True
+if eatOutside:
+    print("Go eat outside.")
+else:
+    print("Go eat inside.")
