@@ -27,4 +27,3 @@ while True:
         break
     else:
         print('Thank you!')
-
